@@ -5,8 +5,8 @@ This project is a content-based movie recommendation system built using Python a
 The system uses Count Vectorization and Cosine Similarity to find and suggest the most relevant movies.
 
 # Features
-### Recommends top similar movies
-### Uses movie metadata for recommendations
-### Text preprocessing and feature engineering
-### Fast and accurate similarity computation
-### Beginner-friendly ML project
+- Recommends top similar movies
+- Uses movie metadata for recommendations
+- Text preprocessing and feature engineering
+- Fast and accurate similarity computation
+- Beginner-friendly ML project
