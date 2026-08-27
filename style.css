@@ -1,0 +1,184 @@
+/* ===========================
+   MOVIE EXPLORER THEME
+=========================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Main App */
+html, body, [class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+.stApp{
+    background: linear-gradient(to bottom,#f8fafc,#eef2ff);
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+[data-testid="stSidebar"]{
+    background: #ffffff;
+    border-right:1px solid #E5E7EB;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3{
+    color:#111827;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.stButton > button{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:14px;
+
+    padding:10px 15px;
+
+    background: linear-gradient(135deg,#60A5FA,#3B82F6);
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 8px 18px rgba(37,99,235,.25);
+
+}
+
+.stButton > button:hover{
+
+    transform:translateY(-3px);
+
+    background: linear-gradient(135deg,#93C5FD,#60A5FA);
+
+    box-shadow:0 15px 25px rgba(37,99,235,.35);
+
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+img{
+
+    border-radius:18px;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+img:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.28);
+
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1{
+
+    color:#111827;
+
+    font-weight:800;
+
+}
+
+h2{
+
+    color:#1F2937;
+
+    font-weight:700;
+
+}
+
+/* ===========================
+   SELECTBOX
+=========================== */
+
+.stSelectbox > div{
+
+    border-radius:12px;
+
+}
+
+/* ===========================
+   SLIDER
+=========================== */
+
+.stSlider{
+
+    padding-top:10px;
+
+}
+
+/* ===========================
+   SUCCESS
+=========================== */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+/* ===========================
+   INFO
+=========================== */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+/* ===========================
+   METRICS / CONTAINERS
+=========================== */
+
+[data-testid="stVerticalBlock"]{
+
+    border-radius:18px;
+
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#94A3B8;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#64748B;
+
+}
