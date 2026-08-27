@@ -1,20 +1,20 @@
-# 🎬 Movie Recommendation System
+#  Movie Recommendation System
 
 A smart movie recommendation web application built with **Streamlit** that recommends movies based on content similarity. The application also provides movie details, posters, trailers, user authentication, favorites, and watch history.
 
-## 🚀 Features
+##  Features
 
-* 🎯 **Content-Based Movie Recommendation**
+ **Content-Based Movie Recommendation**
 
   * Recommends movies similar to the selected movie.
   * Uses **cosine similarity** to find similar movies.
 
-* 🔍 **Movie Search**
+  **Movie Search**
 
   * Search movies by title.
   * Select a movie and get personalized recommendations.
 
-* 🎬 **Movie Details**
+   **Movie Details**
 
   * Movie poster
   * Rating
@@ -22,33 +22,33 @@ A smart movie recommendation web application built with **Streamlit** that recom
   * Cast information
   * YouTube trailer
 
-* 👤 **User Authentication**
+  **User Authentication**
 
   * User signup and login
   * Logout functionality
   * Authentication handled using Supabase
 
-* ❤️ **Favorites**
+  **Favorites**
 
   * Add movies to favorites.
   * Remove movies from favorites.
 
-* 🕒 **Watch History**
+  **Watch History**
 
   * Stores movies opened by the user.
   * View previously watched movies.
   * Clear watch history.
 
-* 🤖 **AI Movie Assistant**
+   **AI Movie Assistant**
 
   * Uses Groq's AI model to generate movie suggestions from a user's description.
 
-* 📱 **Interactive UI**
+   **Interactive UI**
 
   * Built using Streamlit.
   * Responsive movie grid with customizable columns.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology   | Purpose                                            |
 | ------------ | -------------------------------------------------- |
@@ -62,7 +62,7 @@ A smart movie recommendation web application built with **Streamlit** that recom
 | Groq API     | AI-based movie suggestions                         |
 | CSS          | Custom UI styling                                  |
 
-## 🧠 How the Recommendation System Works
+##  How the Recommendation System Works
 
 This project uses a **content-based filtering** approach.
 
@@ -82,7 +82,7 @@ similarity.pkl
 
 `similarity.pkl` is managed using **Git LFS** because of its large file size.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Movie-Recommendation-System/
@@ -103,7 +103,7 @@ Movie-Recommendation-System/
 ├── img.png                 # Application screenshot
 └── notebook86c26b4f17.ipynb # Development/analysis notebook
 ```
-## 🎯 Future Improvements
+##  Future Improvements
 
 * Add genre-based filtering
 * Add movie release-year filtering
